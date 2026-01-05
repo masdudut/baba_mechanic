@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'Mechanic items (EngineKit/BodyKit/WashingKit) for Qbox + ox_inventory'
+description 'Baba_Mechanic V.1.0'
 
 shared_scripts {
     '@ox_lib/init.lua',

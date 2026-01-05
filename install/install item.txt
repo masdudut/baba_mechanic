@@ -1,0 +1,31 @@
+['enginekit'] = {
+		label = 'Kit Service Mesin',
+		weight = 1500,
+		stack = true,
+		close = true,
+		consume = 0, -- penting: konsumsi manual setelah sukses
+		client = {
+			event = 'qbx_mechitems:client:useEngineKit'
+		}
+	},
+
+['bodykit'] = {
+		label = 'Kit Service Body',
+		weight = 1500,
+		stack = true,
+		close = true,
+		consume = 0, -- konsumsi manual setelah sukses
+		client = {
+			event = 'qbx_mechitems:client:useBodyKit'
+		}
+	},
+['washingkit'] = {
+		label = 'Kanebo',
+		weight = 500,
+		stack = true,
+		close = true,
+		consume = 0, -- konsumsi manual setelah sukses
+		client = {
+			event = 'qbx_mechitems:client:useWashingKit'
+		}
+	},
